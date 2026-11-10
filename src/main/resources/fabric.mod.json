@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "livingkingdoms",
+  "version": "${version}",
+  "name": "Living Kingdoms",
+  "description": "Живой мир: путники, торговцы, деревни, замки, лорды, короли, войны, работа и деньги.",
+  "authors": ["Claude"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.livingkingdoms.LivingKingdoms"],
+    "client": ["com.livingkingdoms.client.LivingKingdomsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
