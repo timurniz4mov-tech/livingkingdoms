@@ -90,7 +90,6 @@ public class NpcEntity extends MerchantEntity {
 			}
 		});
 		this.goalSelector.add(2, new LookAtCustomerGoal(this));
-		this.goalSelector.add(2, new OpenDoorGoal(this, true));
 		this.goalSelector.add(3, new MeleeAttackGoal(this, 1.15, true));
 		this.goalSelector.add(4, new NpcGoals.TravelGoal(this));
 		this.goalSelector.add(5, new NpcGoals.WorkGoal(this));
